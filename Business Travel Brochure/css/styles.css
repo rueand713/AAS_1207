@@ -1,0 +1,122 @@
+body {
+    padding: 10px;
+    min-width: 640px;
+    max-width: 900px;
+    min-height: 480px;
+    max-height: 700px;
+    margin: 30px 60px 30px 60px;
+    background-image: url("../images/japan.jpg");
+    background-color: #000;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    line-height: 25px;
+}
+
+div#home_heading {
+    margin-left: 30px;
+}
+
+section {
+    margin: 20px 20px;
+    padding: 10px;
+    background-color: #FFF;
+    border-color: #000;
+    border-style: solid;
+    border-radius: 20px;
+    background: url("../images/section_bg.png"), url("../images/ambient_bg.png"), url() #FFF;
+    background-repeat: no-repeat;
+}
+
+div {
+    padding: 10px 0px;
+    margin: 10px;
+}
+
+p {
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+p.second {
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a#next-btn > span {
+    text-align: center;
+    padding: 10px;
+    border-radius: 0px 40px 40px 0px;
+    border-style: solid;
+    border-color: #dd0000;
+    border-width: thin;
+    background: -moz-linear-gradient(#fff 0%, #eee 25%, #aaa 50%, #eee 75%, #fff 100%);
+    background: -o-linear-gradient(#fff 0%, #eee 25%, #aaa 50%, #eee 75%, #fff 100%);
+    background: -webkit-linear-gradient(#fff 0%, #eee 25%, #aaa 50%, #eee 75%, #fff 100%);
+}
+
+a#prev-btn > span {
+    text-align: center;
+    padding: 10px;
+    border-radius: 40px 0px 0px 40px;
+    border-style: solid;
+    border-color: #dd0000;
+    border-width: thin;
+    background: -moz-linear-gradient(#fff 0%, #eee 25%, #aaa 50%, #eee 75%, #fff 100%);
+    background: -o-linear-gradient(#fff 0%, #eee 25%, #aaa 50%, #eee 75%, #fff 100%);
+    background: -webkit-linear-gradient(#fff 0%, #eee 25%, #aaa 50%, #eee 75%, #fff 100%);
+}
+
+a#home-btn > span {
+    text-align: center;
+    padding: 10px;
+    border-radius: 0px;
+    border-style: solid;
+    border-color: #dd0000;
+    border-width: thin;
+    background: -moz-linear-gradient(#fff 0%, #eee 25%, #aaa 50%, #eee 75%, #fff 100%);
+    background: -o-linear-gradient(#fff 0%, #eee 25%, #aaa 50%, #eee 75%, #fff 100%);
+    background: -webkit-linear-gradient(#fff 0%, #eee 25%, #aaa 50%, #eee 75%, #fff 100%);
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Right floated images */
+img#jflag, img#jmap, img#jcar, img#jbow, img#jman, img#jcos {
+    width: 25%;
+    height: 25%;
+    border-style: solid;
+    border-width: thin;
+    float: right;
+    margin-left: 20px;
+    clear: right;
+}
+
+/* Left floated images */
+img#jhan, img#jgift, img#jrice {
+    width: 25%;
+    height: 25%;
+    border-style: solid;
+    border-width: thin;
+    float: left;
+    margin-right: 20px;
+    clear: left;
+}
+
+#sakura {
+    border-style: solid;
+    border-width: thin;
+    float: right;
+    margin-right: 20px;
+    clear: right;
+}
+
+#directory > li {
+    list-style: none;
+}
